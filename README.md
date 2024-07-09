@@ -12,3 +12,4 @@ DEBO is an amharic word meaning cooperation or working together. In rural Ethiop
 
 #### Ethio-Debo APP
 Ethio-Debo APP is a way to connect volunteers to voluntary work. The App designed to be simple so that people only get what they are looking for which is voluntary work.This App contains landing pages, volunteer forms and voluntary profiles that would be helpful for NGOs to choose from the voluntary applicant, so the landing page immediately direct to the project page the project page direct to the volunteers form. For the NGos there is one form page and one login page for the accepted and the registered NGOs to see the volunteers profile .
+![Readme](https://github.com/ethioendu/Ethio/assets/117819326/d992451f-843c-46d5-91fe-0caa7ef261e6)
