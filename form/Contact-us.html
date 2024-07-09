@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Ethio-Debo" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="author" content="Endalsh Ayalew">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethio-Debo</title>
+    <!-- External CSS for styling -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon for the site -->
+    <link rel="shortcut icon" href="imges/logo3_icon.ico" type="image/x-icon">
+</head>
+<h1>Ethio-Debo Contact Form</h1>
+<body>
+ 
+    <!-- Navigation Menu -->
+    <nav >
+        <ul>
+            <li><a href="../About-us.html">About Us</a></li>
+            <li><a href="../project.html">Projects</a></li>
+            <li><a href="volunteer-profile.html">Volunteer</a></li>
+            <li><a href="Contact-us.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h3 class="info">Contact us <br>Phone: 000000<br>Telegram: @Ethio-debo<br>Address: xxxxxx</h3>
+
+    <section id="volunteer" class="content">
+        <form action="process1.php" method="post">
+            <div class="contactname1">Name:
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="Email">Email:
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="phone">Phone:
+                <input type="tel" name="phone" id="phone" placeholder="Enter your phone">
+            </div>
+            <div>
+                <label for="messageA" class="messages">How can we help you with?</label>
+                <textarea name="messageA" id="messageA" rows="4" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+    
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Ethio-Debo" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="author" content="Endalsh Ayalew">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethio-Debo</title>
+    <!-- External CSS for styling -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon for the site -->
+    <link rel="shortcut icon" href="imges/logo3_icon.ico" type="image/x-icon">
+</head>
+ <!-- Navigation Menu -->
+ <nav>
+    <ul>
+        <li><a href="../About-us.html">About Us</a></li>
+        <li><a href="../project.html">Projects</a></li>
+        <li><a href="volunteer-profile.html">Volunteer</a></li>
+        <li><a href="Contact-us.html">Contact</a></li>
+    </ul>
+</nav>
+<body>
+  
+
+    <!-- Main Heading -->
+    <header>
+        <h1>Volunteer Profile</h1>
+    </header>
+
+    <!-- Volunteer Form Section -->
+    <section class="content">
+        <h2>Become a Volunteer</h2>
+        <form id="volunteer-form" action="process3.php" method="post">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div>
+                <label for="messageA">Where do you want to volunteer?</label>
+                <textarea id="messageA" name="messageA" rows="2" required></textarea>
+            </div>
+            <div>
+                <label for="messageB">What kind of skills do you have that can be helpful for the NGOs? Please add your experience if you can. Thank you.</label>
+                <textarea id="messageB" name="messageB" rows="2" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>

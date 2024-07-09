@@ -1,0 +1,109 @@
+/* Style for the entire body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("../imges/body4.png");
+  margin-bottom: 5px
+
+}
+
+/* Style for the navigation bar */
+nav {
+  background-color: #159531;
+  color: white;
+  padding: 10px 0;
+}
+
+/* Style for the unordered list in the navigation */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Style for list items in the navigation */
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+/* Style for the links in the navigation */
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Change color on hover for the links */
+nav ul li a:hover {
+  color: #ddd;
+}
+
+/* Main heading style */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style for the form section */
+section.content {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+/* Style for form inputs and textarea */
+form div {
+  margin-bottom: 15px;
+}
+
+form div input, form div textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style for form labels */
+form div label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style for the submit button */
+form div button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #159531;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Change background color on hover for the submit button */
+form div button:hover {
+  background-color: #555;
+}
+
+
+.absolute-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 120px;
+
+}
+
+.fixed-right {
+  position: fixed;
+  right: 80;
+  top: 80;
+  margin-right: 20px; /* optional, for spacing */
+}
